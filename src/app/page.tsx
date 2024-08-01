@@ -1,8 +1,10 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import Instrcutors from "@/components/Instrcutors";
 import TestimonialCards from "@/components/TestimonialCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUS from "@/components/WhyChooseUS";
+import { Inspiration } from "next/font/google";
 
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
       <WhyChooseUS />
       <TestimonialCards />
       <UpcomingWebinars />
+      <Instrcutors />
     </main>
   );
 }
