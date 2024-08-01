@@ -69,7 +69,7 @@ function UpcomingWebinars() {
             ))}/>
         </div>
         <div className="text-center">
-            <Link href={'/'}
+            <Link href={'/courses'}
             className="px-4 py-2 rounded-lg border-neutral-600 text-neutral-700 bg-white hover:bg-gray-300 transition duration-200 font-semibold">
                 View All Webinars
             </Link>
