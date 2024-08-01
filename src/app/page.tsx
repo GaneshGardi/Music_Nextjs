@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import WhyChooseUS from "@/components/WhyChooseUS";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       
       <HeroSection />
       <FeaturedCourses />
+      <WhyChooseUS />
     </main>
   );
 }
