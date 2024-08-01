@@ -5,6 +5,7 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import Link from "next/link";
 import { setMaxIdleHTTPParsers } from "http";
+
  
 
 function Navbar({ className }: { className?: string }) {
